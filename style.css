@@ -1,6 +1,6 @@
 :root {
-    --bg: #05070A;
-    --surface: #0D1117;
+    --bg: #050a14;
+    --surface: #0a111a;
     --accent: #C5A059;
     --accent-glow: rgba(197, 160, 89, 0.2);
     --text-main: #FFFFFF;
@@ -24,6 +24,7 @@ html {
 
 body {
     background-color: var(--bg);
+    background-image: radial-gradient(circle at 50% 50%, #0a111a 0%, var(--bg) 100%);
     color: var(--text-main);
     font-family: var(--f-sans);
     line-height: 1.6;
